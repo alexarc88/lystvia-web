@@ -86,7 +86,7 @@ function Footer() {
     <footer className="site-footer">
       <div>
         <strong>Lystvia</strong>
-        <p>Local-first grocery, recipe, meal planning, and household shopping coordination.</p>
+        <p>© 2026 Lystvia. All rights reserved.</p>
       </div>
       <nav aria-label="Footer navigation">
         <a href="/privacy">Privacy</a>
