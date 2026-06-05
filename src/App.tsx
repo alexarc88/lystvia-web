@@ -1,5 +1,6 @@
 import './App.css'
 import type { ReactNode } from 'react'
+import lystviaIcon from './assets/lystvia-icon.png'
 
 type RouteKey = 'home' | 'privacy' | 'support' | 'terms'
 
@@ -58,8 +59,8 @@ function Header({ route }: { route: RouteKey }) {
   return (
     <header className="site-header">
       <a className="brand" href="/" aria-label="Lystvia home">
-        <span className="brand-mark" aria-hidden="true">
-          <span />
+        <span className="brand-mark">
+          <img src={lystviaIcon} alt="Lystvia logo" />
         </span>
         <span className="brand-copy">
           <strong>Lystvia</strong>
